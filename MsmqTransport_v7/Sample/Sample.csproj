@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <LangVersion>10.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NServiceBus" Version="7.*" />
+    <PackageReference Include="NServiceBus.Heartbeat" Version="3.0.0" />
+    <PackageReference Include="NServiceBus.Metrics.ServiceControl" Version="3.0.6" />
+    <PackageReference Include="NServiceBus.Metrics.ServiceControl.Msmq" Version="3.0.1" />
+    <PackageReference Include="NServiceBus.Transport.Msmq" Version="1.*" />
+  </ItemGroup>
+</Project>
